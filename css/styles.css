@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.container{
+    width: 22rem;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px black;
+    margin-top: 10rem;
+}
+
+header{
+    margin:0;
+}
+
+figure{
+    margin: 0;
+    padding: 0.5rem;
+}
+
+figure img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.tag{
+    padding: 0.25rem;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    border-radius: 0.2rem;
+    display: block;
+    width: 80px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+header p{
+    margin: 0;
+}
+main p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1 {
+    width: 100%;
+    font-size: 1.7rem;
+    transition: 0.3s all ease-in-out;
+}
+section:hover h1{
+    color: hsl(47, 88%, 63%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer img{
+    width: 1.9rem;
+}
+footer span{
+    font-weight: bold;
+}
